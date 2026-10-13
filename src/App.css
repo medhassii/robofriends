@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: 'SEGA';
+  src: url('./assets/fonts/sega.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sega {
+  font-family: 'SEGA', sans-serif;
+  font-weight: normal;
+}

@@ -1,11 +1,29 @@
+// import React from 'react';
+
+// const Scroll = (props) => {
+//   return (
+//     <div style={{ overflow: 'scroll', border: '5px solid black', height: '800px'}}>
+//       {props.children}
+//     </div>
+//   );
+// };
+
+// export default Scroll;
+
+
 import React from 'react';
 
-const Scroll = (props) => {
+const SearchBox = ({ searchChange }) => {
   return (
-    <div style={{ overflow: 'scroll', border: '5px solid black', height: '800px'}}>
-      {props.children}
+    <div className="pa2">
+      <input
+        type="search"
+        placeholder="Search robots..."
+        className="pa3 ba b--green bg-lightest-blue"
+        onChange={searchChange}
+      />
     </div>
   );
 };
 
-export default Scroll;
+export default SearchBox;

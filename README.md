@@ -1,16 +1,36 @@
-# React + Vite
+# RoboFriends
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that displays robot avatars with user details and lets users search for friends by name.
 
-Currently, two official plugins are available:
+## Features
+- Displays user information fetched from JSONPlaceholder.
+- Generates robot avatars using RoboHash.
+- Filters robot cards by name as the user types.
+- Uses reusable React components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- JavaScript
+- Vite
+- Tachyons CSS
+- JSONPlaceholder API
+- RoboHash
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/medhassii/robofriends.git
+cd robofriends
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Live Demo
+https://medhassii.github.io/robofriends
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+- Managing component state in React.
+- Fetching and displaying API data.
+- Filtering arrays based on user input.
+- Breaking a UI into reusable components.
+- Building and deploying a React application.
